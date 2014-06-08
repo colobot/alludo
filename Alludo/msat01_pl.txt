@@ -1,0 +1,19 @@
+\b;Raport z satelity
+Obecnie na orbicie geostacjonarnej planety Alludo.
+\c;
+\s;-> POWIERZCHNIA\c;
+\tab;Temperatura:      20,0C
+\tab;Atmosfera:        tlen, azot
+\tab;Wiatr:            brak
+\tab;Ruda tytanu:      brak
+\tab;Ruda uranu:       brak
+
+\s;-> PODGLEBIE\c;
+\tab;ród³o energii:   tak (zielona powierzchnia)
+\tab;Ruda tytanu:      tak (czerwona powierzchnia)
+\tab;Ruda uranu:       tak (Ÿó³ta powierzchnia)
+
+\s;-> DODATKOWE INFORMACJE\c;
+\tab;Nie wykryto ¿adnych obcych form ¿ycia
+
+\n;

@@ -1,0 +1,122 @@
+// Titles EN
+Title.E text="Alludo"
+Resume.E text="Basic map for level designers. Perfect for testing."
+ScriptName.E text="Program"
+
+// Titles PL
+Title.P text="Alludo"
+Resume.P text="Prosta mapa dla level designerów. Idealna do testowania."
+ScriptName.P text="Program"
+
+// SatCom EN
+Instructions.E name="%user%\\minstr01_en.txt"
+Satellite.E name="%user%\\msat01_en.txt"
+
+// SatCom PL
+Instructions.P name="%user%\\minstr01_pl.txt"
+Satellite.P name="%user%\\msat01_pl.txt"
+
+// Documentation in <colobot>/help
+HelpFile name="cbot.txt"
+
+// Basic settings
+EndingFile win=12 lost=0
+MessageDelay factor=1.0
+Audio track=2
+Background up=0;180;255 down=255;255;255
+SecondTexture rank=5
+
+// Set terrain
+TerrainGenerate vision=1600.0 depth=1.0 hard=0.3 slope=0.0
+TerrainRelief image="%user%\\relief01.bmp" factor=1.0
+TerrainResource image="%user%\\res01.bmp"
+TerrainInitTextures image="%user%\\terra.bmp" dx=1 dy=1 table=1
+TerrainCreate
+
+// Light the ground with resources
+GroundSpot pos=-200;200 radius=200 color=255;255;0
+GroundSpot pos=200;200 radius=200 color=255;0;0
+GroundSpot pos=-200;-200 radius=200 color=0;255;0
+
+
+BeginObject
+
+// Just a basic stuff
+// Astronaut and bots are immortal
+// BUG: they will die from mines anyway, it's a bug in the game itself
+CreateObject pos=0;0 dir=1.0 type=Me option=0 magnifyDamage=0
+CreateObject pos=-6;2 dir=1.0 type=WingedGrabber power=1000 range=1000 magnifyDamage=0
+CreateObject pos=-6;-2 dir=1.0 type=WingedShooter power=1000 range=1000 magnifyDamage=0
+CreateObject pos=-2;0 dir=1.0 type=BlueFlag
+CreateObject pos=-1;-6 dir=0 type=Titanium
+CreateObject pos=-4;-6 dir=0 type=Titanium
+CreateObject pos=-1;-4 dir=0 type=Titanium
+CreateObject pos=-4;-4 dir=0 type=Titanium
+CreateObject pos=-1;6 dir=0 type=PowerCell
+CreateObject pos=-4;6 dir=0 type=PowerCell
+CreateObject pos=-1;4 dir=0 type=PowerCell
+CreateObject pos=-4;4 dir=0 type=PowerCell
+
+// Lights
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+
+// Minimap options
+MapColor floor=225;225;225 water=0;0;0
+MapZoom factor=1.0
+
+// Enable to build everything
+EnableBuild type=Flag
+EnableBuild type=FlatGround
+EnableBuild type=BotFactory
+EnableBuild type=ResearchCenter
+EnableBuild type=RadarStation
+EnableBuild type=ExchangePost
+EnableBuild type=RepairCenter
+EnableBuild type=DefenseTower
+EnableBuild type=AutoLab
+EnableBuild type=PowerStation
+EnableBuild type=PowerPlant
+EnableBuild type=NuclearPlant
+EnableBuild type=Converter
+EnableBuild type=Derrick
+EnableBuild type=PowerCaptor
+
+// Enable to research everything
+EnableResearch type=TRACKER
+EnableResearch type=WINGER
+EnableResearch type=SHOOTER
+EnableResearch type=TOWER
+EnableResearch type=ATOMIC
+EnableResearch type=THUMPER
+EnableResearch type=SHIELDER
+EnableResearch type=PHAZER
+EnableResearch type=iPAW
+EnableResearch type=iGUN
+EnableResearch type=SUBBER
+EnableResearch type=SNIFFER
+EnableResearch type=RECYCLER
+
+// Make everything researched
+DoneResearch type=TRACKER
+DoneResearch type=WINGER
+DoneResearch type=SHOOTER
+DoneResearch type=TOWER
+DoneResearch type=ATOMIC
+DoneResearch type=THUMPER
+DoneResearch type=SHIELDER
+DoneResearch type=PHAZER
+DoneResearch type=iPAW
+DoneResearch type=iGUN
+DoneResearch type=SUBBER
+DoneResearch type=SNIFFER
+DoneResearch type=RECYCLER
+
+// Mission ends when astrounaut dies or TNT is produced (by cheats)
+EndMissionTake pos=0.00;0.00 dist=1000 type=TNT min=1
+EndMissionTake pos=0;0 dist=25000.00 type=Me lost=0
