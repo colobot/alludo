@@ -2,6 +2,10 @@
 
 Basic Colobot (https://github.com/colobot/colobot) user level for level designers.
 
+# Installation #
+
+Download or clone the repository and copy the `Alludo` folder to `<colobot_installation_directory>/users`.
+
 # Screenshot #
 
 ![Screenshot](http://i.imgur.com/HLdUpt9.png)
