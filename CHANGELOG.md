@@ -5,8 +5,9 @@ Made for level designers
 
 # Version 1.2 (not released yet) #
 
-* Add a workaround for a multilanguage support
-* Change folder structure
+* Add a workaround for a multi-language support
+* Change the folder structure
+* Change the ground texture (1 grid == 1 square colometer)
 
 # Version 1.1 (latest) #
 

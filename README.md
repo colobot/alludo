@@ -15,7 +15,7 @@ You can also clone the repo to your `user` folder entering a following command i
 
 # Screenshot #
 
-![Screenshot](http://i.imgur.com/HLdUpt9.png)
+![Screenshot](http://i.imgur.com/7qx6quS.png)
 
 # Changelog #
 
