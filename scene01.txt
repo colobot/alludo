@@ -8,13 +8,9 @@ Title.P text="Alludo"
 Resume.P text="Prosta mapa dla level designerów. Idealna do testowania."
 ScriptName.P text="Program"
 
-// SatCom EN
-Instructions.E name="%user%\\minstr01_en.txt"
-Satellite.E name="%user%\\msat01_en.txt"
-
-// SatCom PL
-Instructions.P name="%user%\\minstr01_pl.txt"
-Satellite.P name="%user%\\msat01_pl.txt"
+// SatCom in all languages
+Instructions name="%user%\\minstr01.txt"
+Satellite name="%user%\\msat01.txt"
 
 // Documentation in <colobot>/help
 HelpFile name="cbot.txt"

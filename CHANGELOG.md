@@ -3,6 +3,11 @@
 Colobot user level by Simbax  
 Made for level designers  
 
+# Version 1.2 (not released yet) #
+
+* Add a workaround for a multilanguage support
+* Change folder structure
+
 # Version 1.1 (latest) #
 
 * Add GitHub repository (https://github.com/MrSimbax/colobot-alludo)
