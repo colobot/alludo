@@ -2,7 +2,7 @@
 
 \t;Alludo
 
-A basic map for level designers. You can use it as a base to create your own level and share it, if you mention you used Alludo and add me to the credits.
+A basic map for level designers. You can use it as a base to create your own level and share it, if you mention you used Alludo and add me (Simbax) to the credits.
 
 Also, it is a perfect map for testing because of its simplicity and it's easy to modify.
 
@@ -11,9 +11,10 @@ Also, it is a perfect map for testing because of its simplicity and it's easy to
 * By default the whole map is flat and there is no water.
 * Resources are shown by the color lights. They are in the corners.
 * 1 grid == 1 square colometer
-* Me and first bots are immortal.
-* All building and bots are available.
-* There is no alien.
+* `Me` and first bots are immortal.
+* All buildings and bots are available.
+* There is no living alien.
+* There are all objects from the game in the south-east corner of the map. Warning: visiting the Museum can lag your game!
 
 \t;Example modifications
 
@@ -23,7 +24,7 @@ You can change the ground texture by modifying \c;%user%\\terra001.bmp\n; file i
 
 \t;The End
 
-The game ends when Me dies or TNT is produced, which you can do only by cheats.
+The game never ends, however, there is a bug with TNT and mines, so you can die and after that the screen goes white and you can't do anything except quitting from the game. It's the game's bug, not the map's.
 
 \t;About
 
@@ -45,11 +46,12 @@ Jest to równie¿ idealna mapa do testowania ze wzglêdu na jej prostotê i ³atw¹ mo
 \t;Opis
 
 * Domyœlnie mapa jest ca³kowicie p³aska i nie zawiera wody.
-* Miejsca na kopalnie i elektrownie s¹ zaznaczone odpowiednimi kolorami i znajduj¹ siê w trzech rogach mapy. Czwarty róg jest pusty.
+* Miejsca na kopalnie i elektrownie s¹ zaznaczone odpowiednimi kolorami i znajduj¹ siê w trzech rogach mapy.
 * 1 kratka == 1 colometr kwadratowy
 * Me i roboty dostêpne od pocz¹tku na mapie s¹ niezniszczalni.
 * Wszystkie budynki i roboty s¹ dostêpne.
-* Nie ma obcych.
+* Nie ma ¿ywych obcych.
+* Wszystkie obiekty z gry znajduj¹ siê w po³udniowo-wschodnim rogu mapy. Uwaga: próba zwiedzania mo¿e spowolniæ grê!
 
 \t;Przyk³adowe modyfikacje
 
@@ -59,7 +61,7 @@ Mo¿esz zmieniæ teksturê terenu edytuj¹c plik \c;%user%\\terra001.bmp\n; w katalo
 
 \t;Koniec gry
 
-Gra koñczy siê w momencie, gdy ginie astronauta lub zostanie wyprodukowane TNT, co mo¿e zostaæ wykonane jedynie przy pomocy oszustw.
+Gra nigdy siê nie koñczy, jednak¿e wystêpuje pewien bug z TNT i minami, wiêc mo¿esz umrzeæ. Wtedy ekran staje siê bia³y i nic nie mo¿esz zrobiæ poza wyjœciem z gry. To jest b³¹d w grze, a nie mapie.
 
 \t;Informacje
 

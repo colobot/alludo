@@ -3,13 +3,16 @@
 Colobot user level by Simbax  
 Made for level designers  
 
-# Version 1.2 (not released yet) #
+# Version 1.2 (latest) #
 
 * Add a workaround for a multi-language support
-* Change the folder structure
+* Add the Museum of the Colobot Objects
+* Change the file structure
 * Change the ground texture (1 grid == 1 square colometer)
+* At the beginning a player is facing north instead of west
+* Remove conditions required to end the level
 
-# Version 1.1 (latest) #
+# Version 1.1 #
 
 * Add GitHub repository (https://github.com/MrSimbax/colobot-alludo)
 * Add comments in the files

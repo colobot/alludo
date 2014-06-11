@@ -14,7 +14,7 @@ Currently in a geo-stationary orbit of Alludo.
 \tab;Uranium ore:      yes (yellow ground)
 
 \s;-> ADDITIONAL INFORMATION\c;
-\tab;No alien detected.
+\tab;No living alien detected.
 \n;
 
 
@@ -39,6 +39,6 @@ Obecnie na orbicie geostacjonarnej planety Alludo.
 \tab;Ruda uranu:       tak (잨퀃a powierzchnia)
 
 \s;-> DODATKOWE INFORMACJE\c;
-\tab;Nie wykryto 풹dnych obcych form 퓓cia
+\tab;Nie wykryto 풹dnych 퓓wych obcych form 퓓cia.
 
 \n;
