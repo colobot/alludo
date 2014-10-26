@@ -2,8 +2,6 @@
 
 Basic Colobot (https://github.com/colobot/colobot) user level for level designers.
 
-Note: current Colobot Gold doesn't support user levels.
-
 # Description #
 
 A basic map for level designers. You can use it as a base to create your own level and share it, if you mention you used Alludo and add me to the credits.
@@ -24,9 +22,13 @@ Also, it is a perfect map for testing because of its simplicity and it's easy to
 
 Download the latest release from [here](https://github.com/MrSimbax/colobot-alludo/releases) and unpack it to `<colobot_installation_directory>/user` folder.
 
-You can also clone the repo to your `user` folder by entering a following command in your terminal:
+You can also clone the repo to your mods directory by entering a following command in your terminal:
 
-    git clone git@github.com:MrSimbax/colobot-alludo.git <colobot_install_dir>/user/Alludo
+    git clone git@github.com:MrSimbax/colobot-alludo.git <colobot_data_dir>/mods/alludo
+
+You can also clone the repo to any directory you choose and start colobot with:
+
+    colobot -mod <path_to_repo>
 
 
 # Screenshot #

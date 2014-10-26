@@ -5,12 +5,12 @@ ScriptName.E text="Program"
 
 // Titles PL
 Title.P text="Alludo"
-Resume.P text="Prosta mapa dla level designerów. Idealna do testowania."
+Resume.P text="Prosta mapa dla level designerÃ³w. Idealna do testowania."
 ScriptName.P text="Program"
 
 // SatCom in all languages
-Instructions name="%user%\\mhelp01.txt"
-Satellite name="%user%\\minfo01.txt"
+Instructions name="%lvl%/help.%lng%.txt"
+Satellite name="%lvl%/satellite.%lng%.txt"
 
 // Documentation in <colobot>/help
 HelpFile name="cbot.txt"
@@ -19,20 +19,20 @@ HelpFile name="cbot.txt"
 EndingFile win=12 lost=0
 MessageDelay factor=1.0
 Audio track=2
-Background up=0;180;255 down=255;255;255
+Background up=0.000;0.706;1.000 down=1.000;1.000;1.000
 SecondTexture rank=5
 
 // Set terrain
-TerrainGenerate vision=1600.0 depth=1.0 hard=0.3 slope=0.0
-TerrainRelief image="%user%\\relief01.bmp" factor=1.0
-TerrainResource image="%user%\\res01.bmp"
-TerrainInitTextures image="%user%\\terra.bmp" dx=1 dy=1 table=1
+TerrainGenerate vision=1600.0 depth=1 hard=0.3 slope=0.0
+TerrainRelief image="%lvl%/relief01.bmp" factor=1.0
+TerrainResource image="%lvl%/res01.bmp"
+TerrainInitTextures image="terra.bmp" dx=1 dy=1 table=1
 TerrainCreate
 
 // Light the ground with resources
-GroundSpot pos=-200;200 radius=200 color=255;255;0
-GroundSpot pos=200;200 radius=200 color=255;0;0
-GroundSpot pos=-200;-200 radius=200 color=0;255;0
+GroundSpot pos=-200;200 radius=200 color=1.000;1.000;0.000
+GroundSpot pos=200;200 radius=200 color=1.000;0.000;0.000
+GroundSpot pos=-200;-200 radius=200 color=0.000;1.000;0.000
 
 
 BeginObject
@@ -187,7 +187,7 @@ CreateObject pos=356;-242 dir=1.5 type=Derrick selectable=0 magnifyDamage=0
 CreateObject pos=348;-242 dir=1.5 type=BotFactory selectable=0 magnifyDamage=0
 CreateObject pos=340;-242 dir=1.5 type=PowerStation selectable=0 magnifyDamage=0
 CreateObject pos=334;-242 dir=1.5 type=Converter selectable=0 magnifyDamage=0
-CreateObject pos=332;-242 dir=1.5 type=RapairCenter selectable=0 magnifyDamage=0
+CreateObject pos=332;-242 dir=1.5 type=RepairCenter selectable=0 magnifyDamage=0
 CreateObject pos=328;-242 dir=1.5 type=DefenseTower selectable=0 magnifyDamage=0
 CreateObject pos=324;-242 dir=1.5 type=AlienNest selectable=0 magnifyDamage=0
 CreateObject pos=318;-242 dir=1.5 type=ResearchCenter selectable=0 magnifyDamage=0
@@ -246,7 +246,7 @@ CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
 CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
 
 // Minimap options
-MapColor floor=225;225;225 water=0;0;0
+MapColor floor=0.882;0.882;0.882 water=0.000;0.000;0.000
 MapZoom factor=1.0
 
 // Enable to build everything
