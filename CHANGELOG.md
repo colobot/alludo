@@ -3,7 +3,10 @@
 Colobot user level by Simbax  
 Made for level designers  
 
-# Version 1.2 (latest) #
+# Version 1.3 (latest) #
+* Updated for Colobot: Gold Edition (thanks krzys-h!)
+
+# Version 1.2 #
 
 * Add a workaround for a multi-language support
 * Add the Museum of the Colobot Objects
