@@ -20,7 +20,7 @@ Also, it is a perfect map for testing because of its simplicity and it's easy to
 
 # Installation #
 
-Download the latest release from [here](https://github.com/MrSimbax/colobot-alludo/releases) and unpack it to `<colobot_installation_directory>/user` folder.
+Download the latest release from [here](https://github.com/MrSimbax/colobot-alludo/releases) and unpack it to `<colobot_data_directory>/mods` folder.
 
 You can also clone the repo to your mods directory by entering a following command in your terminal:
 
