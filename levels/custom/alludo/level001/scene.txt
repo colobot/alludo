@@ -26,7 +26,7 @@ SecondTexture rank=5
 TerrainGenerate vision=1600.0 depth=1 hard=0.3 slope=0.0
 TerrainRelief image="%lvl%/relief01.bmp" factor=1.0
 TerrainResource image="%lvl%/res01.bmp"
-TerrainInitTextures image="terra.bmp" dx=1 dy=1 table=1
+TerrainInitTextures image="%lvl%/terra.bmp" dx=1 dy=1 table=1
 TerrainCreate
 
 // Light the ground with resources

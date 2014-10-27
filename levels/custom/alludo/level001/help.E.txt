@@ -18,7 +18,7 @@ Also, it is a perfect map for testing because of its simplicity and it's easy to
 
 * Ground texture
 
-You can change the ground texture by modifying \c;textures/terra001.bmp\n; file in the folder where you installed the level. This file must be saved as \c;bmp\n; (24-bit bitmap). You should just save it without changing the format, if your graphics editor has that option.
+You can change the ground texture by modifying \c;levels/custom/alludo/level001/terra001.bmp\n; file in the folder where you installed the level. This file must be saved as \c;bmp\n; (24-bit bitmap). You should just save it without changing the format, if your graphics editor has that option.
 
 \t;The End
 

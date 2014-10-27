@@ -18,7 +18,7 @@ Jest to również idealna mapa do testowania ze względu na jej prostotę i łat
 
 * Tekstura terenu
 
-Możesz zmienić teksturę terenu edytując plik \c;textures/terra001.bmp\n; w katalogu z zainstalowanym poziomem. Ten plik musi być zapisany jako \c;bmp\n; (bitmapa 24-bitowa). Najlepiej po prostu zapisz ten plik nie zmieniając formatu, jeśli twój program graficzny udostępnia taką opcję.
+Możesz zmienić teksturę terenu edytując plik \c;levels/custom/alludo/level001/terra001.bmp\n; w katalogu z zainstalowanym poziomem. Ten plik musi być zapisany jako \c;bmp\n; (bitmapa 24-bitowa). Najlepiej po prostu zapisz ten plik nie zmieniając formatu, jeśli twój program graficzny udostępnia taką opcję.
 
 \t;Koniec gry
 
