@@ -296,7 +296,10 @@ DoneResearch type=SUBBER
 DoneResearch type=SNIFFER
 DoneResearch type=RECYCLER
 
-// Mission ends when astrounaut dies or TNT is produced (by cheats)
-// BUG: mission doesn't end, because there are two Mes in the map and lost=1 doesn't work
-// EndMissionTake pos=0.00;0.00 dist=1000 type=TNT min=2
-// EndMissionTake pos=0;0 dist=25000.00 type=Me lost=1
+// Mission (no) ending conditions
+
+// Lose if all Mes dies (impossible)
+EndMissionTake pos=0;0 dist=25000.00 type=Me lost=0
+
+// Win if there are 0 Mes on the map (impossible)
+EndMissionTake pos=0;0 dist=25000.00 type=Me max=0

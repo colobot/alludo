@@ -17,6 +17,7 @@ Also, it is a perfect map for testing because of its simplicity and it's easy to
 * All buildings and bots are available.
 * There is no living alien.
 * There are all objects from the game in the south-east corner of the map.
+* Mission never ends.
 
 # Installation #
 
