@@ -13,12 +13,18 @@ Also, it is a perfect map for testing because of its simplicity and it's easy to
 * All buildings and bots are available.
 * There is no living alien.
 * There are all objects from the game in the south-east corner of the map. Warning: visiting the Museum can lag your game!
+* Mission never ends.
+* There is a ramp showing every possible height of the ground.
 
 \t;Example modifications
 
 * Ground texture
 
 You can change the ground texture by modifying \c;levels/custom/alludo/level001/terra001.bmp\n; file in the folder where you installed the level. This file must be saved as \c;bmp\n; (24-bit bitmap). You should just save it without changing the format, if your graphics editor has that option.
+
+* Relief
+
+The ramp is in a relief file. Each pixel represents one height. The ramp is 3 pixels wide.
 
 \t;The End
 

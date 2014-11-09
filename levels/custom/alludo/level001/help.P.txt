@@ -13,12 +13,18 @@ Jest to również idealna mapa do testowania ze względu na jej prostotę i łat
 * Wszystkie budynki i roboty są dostępne.
 * Nie ma żywych obcych.
 * Wszystkie obiekty z gry znajdujš się w południowo-wschodnim rogu mapy. Uwaga: próba zwiedzania może spowolnić grę!
+* Misja nigdy się nie kończy.
+* Na mapie jest rampa przedstawiająca wszystkie możliwe wysokości gruntu.
 
 \t;Przykładowe modyfikacje
 
 * Tekstura terenu
 
 Możesz zmienić teksturę terenu edytując plik \c;levels/custom/alludo/level001/terra001.bmp\n; w katalogu z zainstalowanym poziomem. Ten plik musi być zapisany jako \c;bmp\n; (bitmapa 24-bitowa). Najlepiej po prostu zapisz ten plik nie zmieniając formatu, jeśli twój program graficzny udostępnia taką opcję.
+
+* Rzeźba terenu
+
+Rampa znajduje się w pliku relief. Jeden piksel to jedna wysokość. Rampa ma 3 piksele szerokości.
 
 \t;Koniec gry
 

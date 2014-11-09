@@ -18,6 +18,7 @@ Also, it is a perfect map for testing because of its simplicity and it's easy to
 * There is no living alien.
 * There are all objects from the game in the south-east corner of the map.
 * Mission never ends.
+* There is a ramp showing every possible height of the ground.
 
 # Installation #
 
@@ -37,6 +38,8 @@ You can also clone the repo to any directory you choose and start colobot with:
 ![A start position](http://i.imgur.com/7qx6quS.png)
 
 ![The Museum of the Colobot Objects](http://i.imgur.com/cFrUKi6.png)
+
+![The ramp](http://i.imgur.com/0AtY5od.png)
 
 # Video #
 
