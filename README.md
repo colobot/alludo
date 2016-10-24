@@ -4,7 +4,7 @@ Basic Colobot (https://github.com/colobot/colobot) user level for level designer
 
 # Description #
 
-A basic map for level designers. You can use it as a base to create your own level and share it, if you mention you used Alludo and add me to the credits.
+A basic map for level designers. You can use it as a base to create your own level and share it.
 
 Also, it is a perfect map for testing because of its simplicity and it's easy to modify.
 

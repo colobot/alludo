@@ -1,6 +1,6 @@
 \b;Alludo
 
-Prosta mapa dla level designerów. Możesz jej użyć jako podstawy do stworzenia swojej własnej mapy i ją udostępnić, jeśli napiszesz z czego korzystałeś i wymienisz mnie (Simbax) na liście twórców.
+Prosta mapa dla level designerów. Możesz jej użyć jako podstawy do stworzenia swojej własnej mapy i ją udostępnić.
 
 Jest to również idealna mapa do testowania ze względu na jej prostotę i łatwš modyfikację.
 
