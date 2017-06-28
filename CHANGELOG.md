@@ -3,10 +3,17 @@
 Colobot user level by Simbax  
 Made for level designers  
 
-# Version 1.3 (latest) #
+# Version 1.4.0 #
+* Fix bug with RepairCenter overlapping with Converter (issue #9)
+* Readme rewritten a little
+* Museum separated to its own file
+* Removed mission ending conditions (issue #8)
+* Add new objects (issue #7)
+
+# Version 1.3.0 #
 * Updated for Colobot: Gold Edition (thanks krzys-h!)
 
-# Version 1.2 #
+# Version 1.2.0 #
 
 * Add a workaround for a multi-language support
 * Add the Museum of the Colobot Objects
@@ -15,7 +22,7 @@ Made for level designers
 * At the beginning a player is facing north instead of west
 * Remove conditions required to end the level
 
-# Version 1.1 #
+# Version 1.1.0 #
 
 * Add GitHub repository (https://github.com/MrSimbax/colobot-alludo)
 * Add comments in the files
@@ -26,6 +33,6 @@ Made for level designers
 * Change help files
 * Change folder structure to more readable and more similiar to the original Colobot
 
-# Version 1.0 #
+# Version 1.0.0 #
 
 * First release

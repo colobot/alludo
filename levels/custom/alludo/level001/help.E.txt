@@ -1,35 +1,29 @@
 \b;Alludo
 
-A basic map for level designers. You can use it as a base to create your own level and share it.
+Basic user level made for level designers, developers and testers.
 
-Also, it is a perfect map for testing because of its simplicity and it's easy to modify.
+\t;Features
 
-\t;Description
-
-* By default the whole map is flat and there is no water.
-* Resources are shown by the color lights. They are in the corners.
-* 1 grid == 1 square colometer
+* The whole map is flat and there is no water.
+* Underground resources location is indicated by ground spots in the three corners of the map.
+* 1 grid == 1 square "colometer"
 * `Me` and first bots are immortal.
 * All buildings and bots are available.
-* There is no living alien.
-* There are all objects from the game in the south-east corner of the map. Warning: visiting the Museum can lag your game!
+* There is no living alien to disturb you.
+* All objects available in the game are situated in the south-east corner of the map.
 * Mission never ends.
-* There is a ramp showing every possible height of the ground.
+* A ramp showing every possible height of the ground.
 
-\t;Example modifications
+\t;Examples
 
 * Ground texture
 
-You can change the ground texture by modifying \c;levels/custom/alludo/level001/terra001.bmp\n; file in the folder where you installed the level. This file must be saved as \c;bmp\n; (24-bit bitmap). You should just save it without changing the format, if your graphics editor has that option.
+You can change the ground texture by modifying the \c;levels/custom/alludo/level001/terra001.bmp\n; file in the folder where you installed the level. This file must be saved as \c;bmp\n; (24-bit bitmap). You should just save it without changing the format, if your graphics editor has that option.
 
 * Relief
 
 The ramp is in a relief file. Each pixel represents one height. The ramp is 3 pixels wide.
 
-\t;The End
-
-The game never ends, however, there is a bug with TNT and mines, so you can die and after that the screen goes white and you can't do anything except quitting from the game. It's the game's bug, not the map's.
-
 \t;About
 
-The level was created by Simbax (Mateusz Przybył). License, list of changes and new releases can be found here: \c;https://github.com/MrSimbax/colobot-alludo\n;
+The level was created by Simbax (Mateusz Przybył). License, list of changes and new releases can be found here: \c;https://github.com/MrSimbax/colobot-alludo\n;.
