@@ -4,7 +4,7 @@
 // Template:
 // CreateObject pos= dir=1.5 type= selectable=0 magnifyDamage=0
 //
-// All object are facing the north
+// Almost all object are facing North
 
 // Miscellaneous
 CreateObject pos=310;-356 dir=1.5 type=Firework selectable=0 magnifyDamage=0
@@ -19,6 +19,8 @@ CreateObject pos=340;-300 dir=1.5 type=SpaceShip selectable=0 magnifyDamage=0 ru
 CreateObject pos=340;-280 dir=1.5 type=Me selectable=0 magnifyDamage=0
 
 // Indicators
+LevelController script="%chap%/museum_produce.txt"
+//CreateObject pos=340;-280 dir=1.5 type=Visit selectable=0 magnifyDamage=0
 CreateObject pos=310;-348 dir=1.5 type=PowerSpot selectable=0 magnifyDamage=0
 CreateObject pos=308;-348 dir=1.5 type=TitaniumSpot selectable=0 magnifyDamage=0
 CreateObject pos=306;-348 dir=1.5 type=UraniumSpot selectable=0 magnifyDamage=0
@@ -70,33 +72,38 @@ CreateObject pos=274;-297 dir=1.5 type=Greenery5 selectable=0 magnifyDamage=0
 CreateObject pos=270;-297 dir=1.5 type=Greenery6 selectable=0 magnifyDamage=0
 CreateObject pos=266;-297 dir=1.5 type=Greenery7 selectable=0 magnifyDamage=0
 
-CreateObject pos=260;-297 dir=1.5 type=Greenery10 selectable=0 magnifyDamage=0
-CreateObject pos=254;-297 dir=1.5 type=Greenery11 selectable=0 magnifyDamage=0
-CreateObject pos=248;-297 dir=1.5 type=Greenery12 selectable=0 magnifyDamage=0
-CreateObject pos=242;-297 dir=1.5 type=Greenery13 selectable=0 magnifyDamage=0
-CreateObject pos=236;-297 dir=1.5 type=Greenery14 selectable=0 magnifyDamage=0
+CreateObject pos=262;-297 dir=1.5 type=Greenery8 selectable=0 magnifyDamage=0
+CreateObject pos=258;-297 dir=1.5 type=Greenery9 selectable=0 magnifyDamage=0
 
-CreateObject pos=230;-297 dir=1.5 type=Greenery15 selectable=0 magnifyDamage=0
-CreateObject pos=224;-297 dir=1.5 type=Greenery16 selectable=0 magnifyDamage=0
-CreateObject pos=218;-297 dir=1.5 type=Greenery17 selectable=0 magnifyDamage=0
-CreateObject pos=212;-297 dir=1.5 type=Greenery18 selectable=0 magnifyDamage=0
-CreateObject pos=206;-297 dir=1.5 type=Greenery19 selectable=0 magnifyDamage=0
+CreateObject pos=254;-297 dir=1.5 type=Greenery10 selectable=0 magnifyDamage=0
+CreateObject pos=248;-297 dir=1.5 type=Greenery11 selectable=0 magnifyDamage=0
+CreateObject pos=242;-297 dir=1.5 type=Greenery12 selectable=0 magnifyDamage=0
+CreateObject pos=236;-297 dir=1.5 type=Greenery13 selectable=0 magnifyDamage=0
+CreateObject pos=230;-297 dir=1.5 type=Greenery14 selectable=0 magnifyDamage=0
+
+CreateObject pos=224;-297 dir=1.5 type=Greenery15 selectable=0 magnifyDamage=0
+CreateObject pos=218;-297 dir=1.5 type=Greenery16 selectable=0 magnifyDamage=0
+CreateObject pos=212;-297 dir=1.5 type=Greenery17 selectable=0 magnifyDamage=0
+CreateObject pos=206;-297 dir=1.5 type=Greenery18 selectable=0 magnifyDamage=0
+CreateObject pos=200;-297 dir=1.5 type=Greenery19 selectable=0 magnifyDamage=0
 
 // Plants - Others
 CreateObject pos=310;-280 dir=1.5 type=Tree0 selectable=0 magnifyDamage=0
 CreateObject pos=302;-280 dir=1.5 type=Tree1 selectable=0 magnifyDamage=0
 CreateObject pos=294;-280 dir=1.5 type=Tree2 selectable=0 magnifyDamage=0
 CreateObject pos=286;-280 dir=1.5 type=Tree3 selectable=0 magnifyDamage=0
+CreateObject pos=278;-280 dir=1.5 type=Tree4 selectable=0 magnifyDamage=0 // no model
+CreateObject pos=260;-280 dir=0.5 type=Tree5 selectable=0 magnifyDamage=0
 
-CreateObject pos=280;-280 dir=1.5 type=Mushroom1 selectable=0 magnifyDamage=0
-CreateObject pos=276;-280 dir=1.5 type=Mushroom2 selectable=0 magnifyDamage=0
+CreateObject pos=248;-280 dir=1.5 type=Mushroom1 selectable=0 magnifyDamage=0
+CreateObject pos=244;-280 dir=1.5 type=Mushroom2 selectable=0 magnifyDamage=0
 
-CreateObject pos=268;-280 dir=1.5 type=MegaStalk0 selectable=0 magnifyDamage=0
-CreateObject pos=260;-280 dir=1.5 type=MegaStalk1 selectable=0 magnifyDamage=0
-CreateObject pos=252;-280 dir=1.5 type=MegaStalk2 selectable=0 magnifyDamage=0
-CreateObject pos=244;-280 dir=1.5 type=MegaStalk3 selectable=0 magnifyDamage=0
-CreateObject pos=230;-280 dir=1.5 type=MegaStalk4 selectable=0 magnifyDamage=0
-CreateObject pos=176;-289 dir=1.5 type=MegaStalk5 selectable=0 magnifyDamage=0
+CreateObject pos=236;-280 dir=1.5 type=MegaStalk0 selectable=0 magnifyDamage=0
+CreateObject pos=228;-280 dir=1.5 type=MegaStalk1 selectable=0 magnifyDamage=0
+CreateObject pos=220;-280 dir=1.5 type=MegaStalk2 selectable=0 magnifyDamage=0
+CreateObject pos=212;-280 dir=1.5 type=MegaStalk3 selectable=0 magnifyDamage=0
+CreateObject pos=198;-280 dir=1.5 type=MegaStalk4 selectable=0 magnifyDamage=0
+CreateObject pos=144;-289 dir=1.5 type=MegaStalk5 selectable=0 magnifyDamage=0
 
 // Decorations
 CreateObject pos=356;-264 dir=1.5 type=Quartz0 selectable=0 magnifyDamage=0
@@ -105,7 +112,11 @@ CreateObject pos=348;-264 dir=1.5 type=Quartz2 selectable=0 magnifyDamage=0
 CreateObject pos=342;-264 dir=1.5 type=Quartz3 selectable=0 magnifyDamage=0
 
 CreateObject pos=336;-264 dir=1.5 type=Barrier0 selectable=0 magnifyDamage=0
-CreateObject pos=330;-264 dir=1.5 type=Barrier1 selectable=0 magnifyDamage=0
+CreateObject pos=334;-264 dir=1.5 type=Barrier1 selectable=0 magnifyDamage=0
+CreateObject pos=332;-264 dir=1.5 type=Barrier2 selectable=0 magnifyDamage=0
+CreateObject pos=330;-264 dir=1.5 type=Barrier3 selectable=0 magnifyDamage=0
+CreateObject pos=328;-264 dir=1.5 type=Barricade0 selectable=0 magnifyDamage=0
+CreateObject pos=326;-264 dir=1.5 type=Barricade1 selectable=0 magnifyDamage=0
 
 CreateObject pos=320;-264 dir=1.5 type=ApolloLEM selectable=0 magnifyDamage=0
 CreateObject pos=310;-264 dir=1.5 type=ApolloJeep selectable=0 magnifyDamage=0
@@ -142,12 +153,13 @@ CreateObject pos=298;-242 dir=1.5 type=PowerPlant selectable=0 magnifyDamage=0
 CreateObject pos=294;-242 dir=1.5 type=AutoLab selectable=0 magnifyDamage=0
 CreateObject pos=286;-242 dir=1.5 type=NuclearPlant selectable=0 magnifyDamage=0
 CreateObject pos=274;-242 dir=1.5 type=PowerCaptor selectable=0 magnifyDamage=0
-CreateObject pos=262;-242 dir=1.5 type=Vault selectable=0 magnifyDamage=0
-CreateObject pos=254;-242 dir=1.5 type=StartArea selectable=0 magnifyDamage=0
-CreateObject pos=248;-242 dir=1.5 type=GoalArea selectable=0 magnifyDamage=0
-CreateObject pos=242;-242 dir=1.5 type=Target1 selectable=0 magnifyDamage=0
-CreateObject pos=242;-242 dir=1.5 type=Target2 selectable=0 magnifyDamage=0
-CreateObject pos=230;-242 dir=0.0 type=Houston selectable=0 magnifyDamage=0
+CreateObject pos=262;-242 dir=1.5 type=Destroyer selectable=0 magnifyDamage=0
+CreateObject pos=250;-242 dir=1.5 type=Vault selectable=0 magnifyDamage=0
+CreateObject pos=242;-242 dir=1.5 type=StartArea selectable=0 magnifyDamage=0
+CreateObject pos=236;-242 dir=1.5 type=GoalArea selectable=0 magnifyDamage=0
+CreateObject pos=230;-242 dir=1.5 type=Target1 selectable=0 magnifyDamage=0
+CreateObject pos=230;-242 dir=1.5 type=Target2 selectable=0 magnifyDamage=0
+CreateObject pos=218;-242 dir=0.0 type=Houston selectable=0 magnifyDamage=0
 
 // Bots
 CreateObject pos=356;-220 dir=1.5 type=PracticeBot selectable=0 magnifyDamage=0
@@ -178,5 +190,72 @@ CreateObject pos=280;-220 dir=1.5 type=PhazerShooter selectable=0 magnifyDamage=
 CreateObject pos=276;-220 dir=1.5 type=Recycler selectable=0 magnifyDamage=0
 CreateObject pos=272;-220 dir=1.5 type=Shielder selectable=0 magnifyDamage=0
 CreateObject pos=268;-220 dir=1.5 type=Subber selectable=0 magnifyDamage=0
+CreateObject pos=264;-220 dir=1.5 type=Scribbler selectable=0 magnifyDamage=0
+
+// Teen objects
+CreateObject pos=356;-204 dir=1.5 type=Teen0 selectable=0 magnifyDamage=0 // blue pencil
+CreateObject pos=354;-204 dir=1.5 type=Teen1 selectable=0 magnifyDamage=0 // yellow pencil
+CreateObject pos=352;-204 dir=1.5 type=Teen2 selectable=0 magnifyDamage=0 // red pencil
+
+CreateObject pos=349;-204 dir=1.5 type=Teen3 selectable=0 magnifyDamage=0 // ink
+CreateObject pos=346;-204 dir=1.5 type=Teen4 selectable=0 magnifyDamage=0 // scissors
+CreateObject pos=342;-204 dir=1.5 type=Teen5 selectable=0 magnifyDamage=0 // CD
+
+CreateObject pos=337;-204 dir=1.5 type=Teen6 selectable=0 magnifyDamage=0 // blue book
+CreateObject pos=330;-204 dir=1.5 type=Teen7 selectable=0 magnifyDamage=0 // orange book
+CreateObject pos=323;-204 dir=1.5 type=Teen8 selectable=0 magnifyDamage=0 // stack of 3 books
+CreateObject pos=316;-204 dir=1.5 type=Teen9 selectable=0 magnifyDamage=0 // stack of 4 books
+CreateObject pos=309;-204 dir=1.5 type=Teen10 selectable=0 magnifyDamage=0 // row of books
+
+CreateObject pos=302;-204 dir=0.5 type=Teen11 selectable=0 magnifyDamage=0 // lamp
+CreateObject pos=298;-204 dir=1.5 type=Teen12 selectable=0 magnifyDamage=0 // soda can
+
+CreateObject pos=292;-204 dir=1.5 type=Teen13 selectable=0 magnifyDamage=0 // closed box
+CreateObject pos=284;-204 dir=1.5 type=Teen14 selectable=0 magnifyDamage=0 // opened box
+CreateObject pos=274;-204 dir=1.5 type=Teen15 selectable=0 magnifyDamage=0 // stack of 2 boxes
+
+CreateObject pos=266;-204 dir=0.5 type=Teen16 selectable=0 magnifyDamage=0 // watering can
+
+CreateObject pos=258;-204 dir=1.5 type=Teen17 selectable=0 magnifyDamage=0 // tire
+CreateObject pos=250;-204 dir=1.5 type=Teen18 selectable=0 magnifyDamage=0 // leaning tire
+CreateObject pos=232;-204 dir=1.5 type=Teen19 selectable=0 magnifyDamage=0 // stack of 2 tires
+
+CreateObject pos=346;-122 dir=0.5 type=Teen20 selectable=0 magnifyDamage=0 // wall with two shelves
+CreateObject pos=326;-122 dir=0.5 type=Teen21 selectable=0 magnifyDamage=0 // wall with a window
+CreateObject pos=306;-122 dir=0.5 type=Teen22 selectable=0 magnifyDamage=0 // wall with door and shelve
+
+CreateObject pos=220;-204 dir=1.5 type=Teen23 selectable=0 magnifyDamage=0 // skateboard
+CreateObject pos=212;-204 dir=0.5 type=Teen24 selectable=0 magnifyDamage=0 // leaning skateboard 1
+CreateObject pos=204;-204 dir=0.5 type=Teen25 selectable=0 magnifyDamage=0 // leaning skateboard 2
+
+CreateObject pos=280;-122 dir=1.5 type=Teen26 selectable=0 magnifyDamage=0 // hanging lamp
+
+CreateObject pos=192;-204 dir=1.5 type=Teen27 selectable=0 magnifyDamage=0 // another Greenery
+CreateObject pos=178;-204 dir=1.5 type=Teen28 selectable=0 magnifyDamage=0 // bottle drink
+
+CreateObject pos=250;-122 dir=1.5 type=Teen29 selectable=0 magnifyDamage=0 //
+
+CreateObject pos=170;-204 dir=1.5 type=Teen30 selectable=0 magnifyDamage=0 // bucket
+CreateObject pos=162;-204 dir=1.5 type=Teen31 selectable=0 magnifyDamage=0 // shoe
+
+CreateObject pos=250;-122 dir=0.5 type=Teen32 selectable=0 magnifyDamage=0 // chair
+CreateObject pos=240;-122 dir=0.5 type=Teen33 selectable=0 magnifyDamage=0 // signpost
+
+CreateObject pos=157;-204 dir=0.5 type=Stone selectable=0 magnifyDamage=0 // Teen34
+
+CreateObject pos=232;-122 dir=0.5 type=Teen35 selectable=0 magnifyDamage=0 // pipe
+
+CreateObject pos=226;-122 dir=0.5 type=Teen36 selectable=0 magnifyDamage=0 // nothing?
+CreateObject pos=220;-122 dir=0.5 type=Teen37 selectable=0 magnifyDamage=0 // nothing?
+
+CreateObject pos=212;-122 dir=0.5 type=Teen38 selectable=0 magnifyDamage=0 // fan
+CreateObject pos=202;-122 dir=0.5 type=Teen39 selectable=0 magnifyDamage=0 // flowerpot
+CreateObject pos=194;-122 dir=0.5 type=Teen40 selectable=0 magnifyDamage=0 // ball
+CreateObject pos=188;-122 dir=0.5 type=Teen41 selectable=0 magnifyDamage=0 // wooden gate with fence
+
+CreateObject pos=148;-204 dir=0.5 type=Teen42 selectable=0 magnifyDamage=0 // yet another greenery
+CreateObject pos=136;-204 dir=0.5 type=Teen43 selectable=0 magnifyDamage=0 // *sigh*
+
+CreateObject pos=164;-122 dir=0.5 type=Teen44 selectable=0 magnifyDamage=0 // huge wooden box
 
 // ============================================================================

@@ -1,0 +1,4 @@
+extern void object::main()
+{
+	produce(new point(340, -280, 35), 1.5, 62); // Visit
+}
