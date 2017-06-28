@@ -1,0 +1,182 @@
+// ============================================================================
+// Put all objects from the game in the south-east corner of the map
+//
+// Template:
+// CreateObject pos= dir=1.5 type= selectable=0 magnifyDamage=0
+//
+// All object are facing the north
+
+// Miscellaneous
+CreateObject pos=310;-356 dir=1.5 type=Firework selectable=0 magnifyDamage=0
+CreateObject pos=308;-356 dir=1.5 type=Tech selectable=0 magnifyDamage=0
+CreateObject pos=304;-356 dir=1.5 type=Home selectable=0 magnifyDamage=0
+CreateObject pos=300;-356 dir=1.5 type=Bag selectable=0 magnifyDamage=0
+CreateObject pos=298;-356 dir=1.5 type=Mine selectable=0 magnifyDamage=0
+CreateObject pos=340;-348 dir=1.5 type=Portico selectable=0 magnifyDamage=0
+
+// General
+CreateObject pos=340;-300 dir=1.5 type=SpaceShip selectable=0 magnifyDamage=0 run=0
+CreateObject pos=340;-280 dir=1.5 type=Me selectable=0 magnifyDamage=0
+
+// Indicators
+CreateObject pos=310;-348 dir=1.5 type=PowerSpot selectable=0 magnifyDamage=0
+CreateObject pos=308;-348 dir=1.5 type=TitaniumSpot selectable=0 magnifyDamage=0
+CreateObject pos=306;-348 dir=1.5 type=UraniumSpot selectable=0 magnifyDamage=0
+CreateObject pos=304;-348 dir=1.5 type=KeyASpot selectable=0 magnifyDamage=0
+CreateObject pos=302;-348 dir=1.5 type=KeyBSpot selectable=0 magnifyDamage=0
+CreateObject pos=300;-348 dir=1.5 type=KeyCSpot selectable=0 magnifyDamage=0
+CreateObject pos=298;-348 dir=1.5 type=KeyDSpot selectable=0 magnifyDamage=0
+CreateObject pos=296;-348 dir=1.5 type=WayPoint selectable=0 magnifyDamage=0
+CreateObject pos=294;-348 dir=1.5 type=BlueFlag selectable=0 magnifyDamage=0
+CreateObject pos=292;-348 dir=1.5 type=RedFlag selectable=0 magnifyDamage=0
+CreateObject pos=290;-348 dir=1.5 type=GreenFlag selectable=0 magnifyDamage=0
+CreateObject pos=288;-348 dir=1.5 type=YellowFlag selectable=0 magnifyDamage=0
+CreateObject pos=286;-348 dir=1.5 type=VioletFlag selectable=0 magnifyDamage=0
+
+// Aliens
+CreateObject pos=310;-340 dir=1.5 type=AlienQueen selectable=0 magnifyDamage=0
+CreateObject pos=302;-340 dir=1.5 type=AlienEgg selectable=0 magnifyDamage=0
+CreateObject pos=298;-340 dir=1.5 type=AlienAnt selectable=0 magnifyDamage=0
+CreateObject pos=294;-340 dir=1.5 type=AlienSpider selectable=0 magnifyDamage=0
+CreateObject pos=290;-340 dir=1.5 type=AlienWasp selectable=0 magnifyDamage=0
+CreateObject pos=286;-340 dir=1.5 type=AlienWorm selectable=0 magnifyDamage=0
+
+// Ruins
+CreateObject pos=310;-318 dir=1.5 type=RuinBotFactory selectable=0 magnifyDamage=0
+CreateObject pos=304;-318 dir=1.5 type=RuinDoor selectable=0 magnifyDamage=0
+CreateObject pos=301;-318 dir=1.5 type=RuinSupport selectable=0 magnifyDamage=0
+CreateObject pos=297;-318 dir=1.5 type=RuinRadar selectable=0 magnifyDamage=0
+CreateObject pos=292;-318 dir=1.5 type=RuinConvert selectable=0 magnifyDamage=0
+CreateObject pos=290;-318 dir=1.5 type=RuinSupport selectable=0 magnifyDamage=0
+CreateObject pos=278;-318 dir=1.5 type=RuinBaseCamp selectable=0 magnifyDamage=0
+CreateObject pos=256;-318 dir=1.5 type=RuinHeadCamp selectable=0 magnifyDamage=0
+
+// Recyclable wrecks or derelicts
+CreateObject pos=310;-305 dir=1.5 type=WreckBotw1 selectable=0 magnifyDamage=0
+CreateObject pos=306;-305 dir=1.5 type=WreckBotw2 selectable=0 magnifyDamage=0
+CreateObject pos=302;-305 dir=1.5 type=WreckBott1 selectable=0 magnifyDamage=0
+CreateObject pos=298;-305 dir=1.5 type=WreckBott2 selectable=0 magnifyDamage=0
+CreateObject pos=294;-305 dir=1.5 type=WreckBotr1 selectable=0 magnifyDamage=0
+CreateObject pos=290;-305 dir=1.5 type=WreckBotr2 selectable=0 magnifyDamage=0
+
+// Plants - Greenery
+CreateObject pos=310;-297 dir=1.5 type=Greenery0 selectable=0 magnifyDamage=0
+CreateObject pos=302;-297 dir=1.5 type=Greenery1 selectable=0 magnifyDamage=0
+CreateObject pos=294;-297 dir=1.5 type=Greenery2 selectable=0 magnifyDamage=0
+CreateObject pos=286;-297 dir=1.5 type=Greenery3 selectable=0 magnifyDamage=0
+CreateObject pos=278;-297 dir=1.5 type=Greenery4 selectable=0 magnifyDamage=0
+
+CreateObject pos=274;-297 dir=1.5 type=Greenery5 selectable=0 magnifyDamage=0
+CreateObject pos=270;-297 dir=1.5 type=Greenery6 selectable=0 magnifyDamage=0
+CreateObject pos=266;-297 dir=1.5 type=Greenery7 selectable=0 magnifyDamage=0
+
+CreateObject pos=260;-297 dir=1.5 type=Greenery10 selectable=0 magnifyDamage=0
+CreateObject pos=254;-297 dir=1.5 type=Greenery11 selectable=0 magnifyDamage=0
+CreateObject pos=248;-297 dir=1.5 type=Greenery12 selectable=0 magnifyDamage=0
+CreateObject pos=242;-297 dir=1.5 type=Greenery13 selectable=0 magnifyDamage=0
+CreateObject pos=236;-297 dir=1.5 type=Greenery14 selectable=0 magnifyDamage=0
+
+CreateObject pos=230;-297 dir=1.5 type=Greenery15 selectable=0 magnifyDamage=0
+CreateObject pos=224;-297 dir=1.5 type=Greenery16 selectable=0 magnifyDamage=0
+CreateObject pos=218;-297 dir=1.5 type=Greenery17 selectable=0 magnifyDamage=0
+CreateObject pos=212;-297 dir=1.5 type=Greenery18 selectable=0 magnifyDamage=0
+CreateObject pos=206;-297 dir=1.5 type=Greenery19 selectable=0 magnifyDamage=0
+
+// Plants - Others
+CreateObject pos=310;-280 dir=1.5 type=Tree0 selectable=0 magnifyDamage=0
+CreateObject pos=302;-280 dir=1.5 type=Tree1 selectable=0 magnifyDamage=0
+CreateObject pos=294;-280 dir=1.5 type=Tree2 selectable=0 magnifyDamage=0
+CreateObject pos=286;-280 dir=1.5 type=Tree3 selectable=0 magnifyDamage=0
+
+CreateObject pos=280;-280 dir=1.5 type=Mushroom1 selectable=0 magnifyDamage=0
+CreateObject pos=276;-280 dir=1.5 type=Mushroom2 selectable=0 magnifyDamage=0
+
+CreateObject pos=268;-280 dir=1.5 type=MegaStalk0 selectable=0 magnifyDamage=0
+CreateObject pos=260;-280 dir=1.5 type=MegaStalk1 selectable=0 magnifyDamage=0
+CreateObject pos=252;-280 dir=1.5 type=MegaStalk2 selectable=0 magnifyDamage=0
+CreateObject pos=244;-280 dir=1.5 type=MegaStalk3 selectable=0 magnifyDamage=0
+CreateObject pos=230;-280 dir=1.5 type=MegaStalk4 selectable=0 magnifyDamage=0
+CreateObject pos=176;-289 dir=1.5 type=MegaStalk5 selectable=0 magnifyDamage=0
+
+// Decorations
+CreateObject pos=356;-264 dir=1.5 type=Quartz0 selectable=0 magnifyDamage=0
+CreateObject pos=352;-264 dir=1.5 type=Quartz1 selectable=0 magnifyDamage=0
+CreateObject pos=348;-264 dir=1.5 type=Quartz2 selectable=0 magnifyDamage=0
+CreateObject pos=342;-264 dir=1.5 type=Quartz3 selectable=0 magnifyDamage=0
+
+CreateObject pos=336;-264 dir=1.5 type=Barrier0 selectable=0 magnifyDamage=0
+CreateObject pos=330;-264 dir=1.5 type=Barrier1 selectable=0 magnifyDamage=0
+
+CreateObject pos=320;-264 dir=1.5 type=ApolloLEM selectable=0 magnifyDamage=0
+CreateObject pos=310;-264 dir=1.5 type=ApolloJeep selectable=0 magnifyDamage=0
+CreateObject pos=306;-264 dir=1.5 type=ApolloFlag selectable=0 magnifyDamage=0
+CreateObject pos=302;-264 dir=1.5 type=ApolloModule selectable=0 magnifyDamage=0
+CreateObject pos=298;-264 dir=1.5 type=ApolloAntenna selectable=0 magnifyDamage=0
+
+// Transportable objects
+CreateObject pos=356;-252 dir=1.5 type=TitaniumOre selectable=0 magnifyDamage=0
+CreateObject pos=354;-252 dir=1.5 type=UraniumOre selectable=0 magnifyDamage=0
+CreateObject pos=352;-252 dir=1.5 type=Titanium selectable=0 magnifyDamage=0
+CreateObject pos=350;-252 dir=1.5 type=PowerCell selectable=0 magnifyDamage=0
+CreateObject pos=348;-252 dir=1.5 type=NuclearCell selectable=0 magnifyDamage=0
+CreateObject pos=346;-252 dir=1.5 type=OrgaMatter selectable=0 magnifyDamage=0
+CreateObject pos=344;-252 dir=1.5 type=BlackBox selectable=0 magnifyDamage=0
+CreateObject pos=342;-252 dir=1.5 type=KeyA selectable=0 magnifyDamage=0
+CreateObject pos=340;-252 dir=1.5 type=KeyB selectable=0 magnifyDamage=0
+CreateObject pos=338;-252 dir=1.5 type=KeyC selectable=0 magnifyDamage=0
+CreateObject pos=336;-252 dir=1.5 type=KeyD selectable=0 magnifyDamage=0
+CreateObject pos=334;-252 dir=1.5 type=TNT selectable=0 magnifyDamage=0
+
+// Buildings
+CreateObject pos=356;-242 dir=1.5 type=Derrick selectable=0 magnifyDamage=0
+CreateObject pos=348;-242 dir=1.5 type=BotFactory selectable=0 magnifyDamage=0
+CreateObject pos=340;-242 dir=1.5 type=PowerStation selectable=0 magnifyDamage=0
+CreateObject pos=334;-242 dir=1.5 type=Converter selectable=0 magnifyDamage=0
+CreateObject pos=332;-242 dir=1.5 type=RepairCenter selectable=0 magnifyDamage=0
+CreateObject pos=328;-242 dir=1.5 type=DefenseTower selectable=0 magnifyDamage=0
+CreateObject pos=324;-242 dir=1.5 type=AlienNest selectable=0 magnifyDamage=0
+CreateObject pos=318;-242 dir=1.5 type=ResearchCenter selectable=0 magnifyDamage=0
+CreateObject pos=312;-242 dir=1.5 type=RadarStation selectable=0 magnifyDamage=0
+CreateObject pos=308;-242 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0
+CreateObject pos=304;-242 dir=1.5 type=PowerPlant selectable=0 magnifyDamage=0
+CreateObject pos=300;-242 dir=1.5 type=AutoLab selectable=0 magnifyDamage=0
+CreateObject pos=292;-242 dir=1.5 type=NuclearPlant selectable=0 magnifyDamage=0
+CreateObject pos=280;-242 dir=1.5 type=PowerCaptor selectable=0 magnifyDamage=0
+CreateObject pos=268;-242 dir=1.5 type=Vault selectable=0 magnifyDamage=0
+CreateObject pos=260;-242 dir=1.5 type=StartArea selectable=0 magnifyDamage=0
+CreateObject pos=254;-242 dir=1.5 type=GoalArea selectable=0 magnifyDamage=0
+CreateObject pos=248;-242 dir=1.5 type=Target1 selectable=0 magnifyDamage=0
+CreateObject pos=248;-242 dir=1.5 type=Target2 selectable=0 magnifyDamage=0
+CreateObject pos=236;-242 dir=0.0 type=Houston selectable=0 magnifyDamage=0
+
+// Bots
+CreateObject pos=356;-220 dir=1.5 type=PracticeBot selectable=0 magnifyDamage=0
+CreateObject pos=352;-220 dir=1.5 type=TargetBot selectable=0 magnifyDamage=0
+
+CreateObject pos=348;-220 dir=1.5 type=WheeledGrabber selectable=0 magnifyDamage=0
+CreateObject pos=344;-220 dir=1.5 type=TrackedGrabber selectable=0 magnifyDamage=0
+CreateObject pos=340;-220 dir=1.5 type=WingedGrabber selectable=0 magnifyDamage=0
+CreateObject pos=336;-220 dir=1.5 type=LeggedGrabber selectable=0 magnifyDamage=0
+
+CreateObject pos=332;-220 dir=1.5 type=WheeledShooter selectable=0 magnifyDamage=0
+CreateObject pos=328;-220 dir=1.5 type=TrackedShooter selectable=0 magnifyDamage=0
+CreateObject pos=324;-220 dir=1.5 type=WingedShooter selectable=0 magnifyDamage=0
+CreateObject pos=320;-220 dir=1.5 type=LeggedShooter selectable=0 magnifyDamage=0
+
+CreateObject pos=316;-220 dir=1.5 type=WheeledOrgaShooter selectable=0 magnifyDamage=0
+CreateObject pos=312;-220 dir=1.5 type=TrackedOrgaShooter selectable=0 magnifyDamage=0
+CreateObject pos=308;-220 dir=1.5 type=WingedOrgaShooter selectable=0 magnifyDamage=0
+CreateObject pos=304;-220 dir=1.5 type=LeggedOrgaShooter selectable=0 magnifyDamage=0
+
+CreateObject pos=300;-220 dir=1.5 type=WheeledSniffer selectable=0 magnifyDamage=0
+CreateObject pos=296;-220 dir=1.5 type=TrackedSniffer selectable=0 magnifyDamage=0
+CreateObject pos=292;-220 dir=1.5 type=WingedSniffer selectable=0 magnifyDamage=0
+CreateObject pos=288;-220 dir=1.5 type=LeggedSniffer selectable=0 magnifyDamage=0
+
+CreateObject pos=284;-220 dir=1.5 type=Thumper selectable=0 magnifyDamage=0
+CreateObject pos=280;-220 dir=1.5 type=PhazerShooter selectable=0 magnifyDamage=0
+CreateObject pos=276;-220 dir=1.5 type=Recycler selectable=0 magnifyDamage=0
+CreateObject pos=272;-220 dir=1.5 type=Shielder selectable=0 magnifyDamage=0
+CreateObject pos=268;-220 dir=1.5 type=Subber selectable=0 magnifyDamage=0
+
+// ============================================================================
