@@ -16,7 +16,7 @@ Satellite name="%lvl%/satellite.%lng%.txt"
 HelpFile name="cbot.txt"
 
 // Basic settings
-EndingFile win=12 lost=0
+EndingFile win="level/other/win000.txt" lost="level/other/lost000.txt"
 MessageDelay factor=1.0
 Audio track=2
 Background up=0.000;0.706;1.000 down=1.000;1.000;1.000
