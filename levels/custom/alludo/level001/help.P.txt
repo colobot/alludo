@@ -4,23 +4,23 @@ Prosta mapa dla level designerów, developerów i testerów.
 
 \t;Opis
 
-* Mapa jest całkowicie płaska i nie zawiera wody.
-* Lokalizacja podziemnych zasobów jest zaznaczona kolorowym podświetleniem w rogach mapy.
-* 1 kratka == 1 "colometr" kwadratowy
-* `Me` i pierwsze roboty są niezniszczalni.
-* Wszystkie budynki i roboty są dostępne.
-* Nie ma żywych obcych mogących ci przeszkodzić.
-* Wszystkie obiekty z gry znajdują się w południowo-wschodnim rogu mapy.
-* Misja nigdy się nie kończy.
-* Na mapie jest rampa przedstawiająca wszystkie możliwe wysokości gruntu.
+o Mapa jest prawie całkowicie płaska i nie zawiera wody.
+o Lokalizacja podziemnych zasobów jest zaznaczona kolorowym podświetleniem w rogach mapy.
+o 1 kratka == 1 "colometr" kwadratowy
+o \c;Me\n; i pierwsze roboty są niezniszczalni.
+o Wszystkie budynki i roboty są dostępne.
+o Nie ma żywych obcych mogących ci przeszkodzić.
+o Wszystkie obiekty z gry znajdują się w południowo-wschodnim rogu mapy.
+o Misja nigdy się nie kończy.
+o Na mapie jest rampa przedstawiająca wszystkie możliwe wysokości gruntu.
 
 \t;Przykładowe modyfikacje
 
-* Tekstura terenu
+o Tekstura terenu
 
 Możesz zmienić teksturę terenu edytując plik \c;levels/custom/alludo/level001/terra001.bmp\n; w katalogu z zainstalowanym poziomem. Ten plik musi być zapisany jako \c;bmp\n; (bitmapa 24-bitowa). Najlepiej po prostu zapisz ten plik nie zmieniając formatu, jeśli twój program graficzny udostępnia taką opcję.
 
-* Rzeźba terenu
+o Rzeźba terenu
 
 Rampa znajduje się w pliku relief. Jeden piksel to jedna wysokość. Rampa ma 3 piksele szerokości.
 

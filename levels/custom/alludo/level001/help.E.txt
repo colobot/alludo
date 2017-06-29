@@ -4,23 +4,23 @@ Basic user level made for level designers, developers and testers.
 
 \t;Features
 
-* The whole map is flat and there is no water.
-* Underground resources location is indicated by ground spots in the three corners of the map.
-* 1 grid == 1 square "colometer"
-* `Me` and first bots are immortal.
-* All buildings and bots are available.
-* There is no living alien to disturb you.
-* All objects available in the game are situated in the south-east corner of the map.
-* Mission never ends.
-* A ramp showing every possible height of the ground.
+o The map is almost completely flat and there is no water.
+o Underground resources location is indicated by ground spots in the three corners of the map.
+o 1 grid == 1 square "colometer"
+o \c;Me\n; and first bots are immortal.
+o All buildings and bots are available.
+o There is no living alien to disturb you.
+o All objects available in the game are situated in the south-east corner of the map.
+o Mission never ends.
+o A ramp showing every possible height of the ground.
 
 \t;Examples
 
-* Ground texture
+o Ground texture
 
 You can change the ground texture by modifying the \c;levels/custom/alludo/level001/terra001.bmp\n; file in the folder where you installed the level. This file must be saved as \c;bmp\n; (24-bit bitmap). You should just save it without changing the format, if your graphics editor has that option.
 
-* Relief
+o Relief
 
 The ramp is in a relief file. Each pixel represents one height. The ramp is 3 pixels wide.
 

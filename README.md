@@ -24,7 +24,7 @@ The map is perfect for testing purposes as it is relatively simple and provides 
 
 # Features #
 
-* The whole map is flat and there is no water.
+* The map is almost completely flat and there is no water.
 * Underground resources location is indicated by ground spots in the three corners of the map.
 * 1 grid == 1 square "colometer"
 * `Me` and first bots are immortal.
