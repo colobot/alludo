@@ -87,6 +87,7 @@ EnableBuild type=NuclearPlant
 EnableBuild type=Converter
 EnableBuild type=Derrick
 EnableBuild type=PowerCaptor
+EnableBuild type=Destroyer
 
 // Enable to research everything
 EnableResearch type=TRACKER
