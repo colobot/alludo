@@ -4,15 +4,15 @@ Basic Colobot (https://github.com/colobot/colobot) user level made for level des
 
 # Screenshots #
 
-![The starting position](http://i.imgur.com/oPRFTza.png)
+![The starting position](http://i.imgur.com/mMUHxGL.png)
 
-![The Museum of the Colobot Objects](http://i.imgur.com/NLQjqdc.png)
+![The Museum of the Colobot Objects](http://i.imgur.com/JVSmiw0.png)
 
-![The ramp](http://i.imgur.com/ASJZKE4.png)
+![The ramp](http://i.imgur.com/IhBAYfs.png)
 
 # Video #
 
-A video showing the Museum of the Colobot Objects can be watched [here](https://youtu.be/bAGesuqPi38).
+A video showing the Museum of the Colobot Objects can be watched [here](https://youtu.be/k1zGHXB105U).
 
 # Description #
 
