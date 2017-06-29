@@ -92,7 +92,7 @@ CreateObject pos=310;-280 dir=1.5 type=Tree0 selectable=0 magnifyDamage=0
 CreateObject pos=302;-280 dir=1.5 type=Tree1 selectable=0 magnifyDamage=0
 CreateObject pos=294;-280 dir=1.5 type=Tree2 selectable=0 magnifyDamage=0
 CreateObject pos=286;-280 dir=1.5 type=Tree3 selectable=0 magnifyDamage=0
-CreateObject pos=278;-280 dir=1.5 type=Tree4 selectable=0 magnifyDamage=0 // no model
+//CreateObject pos=278;-280 dir=1.5 type=Tree4 selectable=0 magnifyDamage=0 // no model
 CreateObject pos=260;-280 dir=0.5 type=Tree5 selectable=0 magnifyDamage=0
 
 CreateObject pos=248;-280 dir=1.5 type=Mushroom1 selectable=0 magnifyDamage=0
