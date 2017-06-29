@@ -3,6 +3,14 @@
 Colobot user level by Simbax  
 Made for level designers  
 
+# Version 1.4.1 #
+* Fix water objects placements
+* Fix loading models error
+* Fix texture of nuclear batteries
+* Fix mistakes in help files
+* Increase max flying height
+* Increase Me flying range
+
 # Version 1.4.0 #
 * Fix bug with RepairCenter overlapping with Converter (issue #9)
 * Readme rewritten a little
