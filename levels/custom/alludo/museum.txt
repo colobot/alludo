@@ -233,29 +233,30 @@ CreateObject pos=280;-122 dir=1.5 type=Teen26 selectable=0 magnifyDamage=0 // ha
 CreateObject pos=192;-204 dir=1.5 type=Teen27 selectable=0 magnifyDamage=0 // another Greenery
 CreateObject pos=178;-204 dir=1.5 type=Teen28 selectable=0 magnifyDamage=0 // bottle drink
 
-CreateObject pos=250;-122 dir=1.5 type=Teen29 selectable=0 magnifyDamage=0 //
+CreateObject pos=300;-8 dir=1.0 type=Teen29 selectable=0 magnifyDamage=0 // bridge
 
 CreateObject pos=170;-204 dir=1.5 type=Teen30 selectable=0 magnifyDamage=0 // bucket
 CreateObject pos=162;-204 dir=1.5 type=Teen31 selectable=0 magnifyDamage=0 // shoe
 
-CreateObject pos=250;-122 dir=0.5 type=Teen32 selectable=0 magnifyDamage=0 // chair
-CreateObject pos=240;-122 dir=0.5 type=Teen33 selectable=0 magnifyDamage=0 // signpost
+CreateObject pos=260;-122 dir=0.5 type=Teen32 selectable=0 magnifyDamage=0 // chair
+CreateObject pos=250;-122 dir=0.5 type=Teen33 selectable=0 magnifyDamage=0 // signpost
 
 CreateObject pos=157;-204 dir=0.5 type=Stone selectable=0 magnifyDamage=0 // Teen34
 
-CreateObject pos=232;-122 dir=0.5 type=Teen35 selectable=0 magnifyDamage=0 // pipe
+CreateObject pos=242;-122 dir=0.5 type=Teen35 selectable=0 magnifyDamage=0 // pipe
 
-CreateObject pos=226;-122 dir=0.5 type=Teen36 selectable=0 magnifyDamage=0 // nothing?
-CreateObject pos=220;-122 dir=0.5 type=Teen37 selectable=0 magnifyDamage=0 // nothing?
+// Note: these objects are placed at the water level
+CreateObject pos=300;-24 dir=1.0 type=Teen36 selectable=0 magnifyDamage=0 // trunk
+CreateObject pos=300;-48 dir=1.0 type=Teen37 selectable=0 magnifyDamage=0 // boat
 
-CreateObject pos=212;-122 dir=0.5 type=Teen38 selectable=0 magnifyDamage=0 // fan
-CreateObject pos=202;-122 dir=0.5 type=Teen39 selectable=0 magnifyDamage=0 // flowerpot
-CreateObject pos=194;-122 dir=0.5 type=Teen40 selectable=0 magnifyDamage=0 // ball
-CreateObject pos=188;-122 dir=0.5 type=Teen41 selectable=0 magnifyDamage=0 // wooden gate with fence
+CreateObject pos=232;-122 dir=0.5 type=Teen38 selectable=0 magnifyDamage=0 // fan
+CreateObject pos=222;-122 dir=0.5 type=Teen39 selectable=0 magnifyDamage=0 // flowerpot
+CreateObject pos=214;-122 dir=0.5 type=Teen40 selectable=0 magnifyDamage=0 // ball
+CreateObject pos=208;-122 dir=0.5 type=Teen41 selectable=0 magnifyDamage=0 // wooden gate with fence
 
 CreateObject pos=148;-204 dir=0.5 type=Teen42 selectable=0 magnifyDamage=0 // yet another greenery
 CreateObject pos=136;-204 dir=0.5 type=Teen43 selectable=0 magnifyDamage=0 // *sigh*
 
-CreateObject pos=164;-122 dir=0.5 type=Teen44 selectable=0 magnifyDamage=0 // huge wooden box
+CreateObject pos=184;-122 dir=0.5 type=Teen44 selectable=0 magnifyDamage=0 // huge wooden box
 
 // ============================================================================
