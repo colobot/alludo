@@ -44,8 +44,8 @@ BeginObject
 CreateObject pos=0;0 dir=1.5 type=Me option=0 magnifyDamage=0
 //CreateObject pos=130;-268 dir=1.75 type=Me option=0 magnifyDamage=0
 
-CreateObject pos=-2;6 dir=1.5 type=WingedGrabber power=1000 range=1000 magnifyDamage=0 script1="%chap%/produce_robbie.txt"
-CreateObject pos=2;6 dir=1.5 type=WingedShooter power=1000 range=1000 magnifyDamage=0 script1="%chap%/produce_robbie.txt"
+CreateObject pos=-2;6 dir=1.5 type=WingedGrabber power=100 range=1000 magnifyDamage=0 script1="%chap%/produce_robbie.txt"
+CreateObject pos=2;6 dir=1.5 type=WingedShooter power=100 range=1000 magnifyDamage=0 script1="%chap%/produce_robbie.txt"
 CreateObject pos=0;2 dir=1.5 type=BlueFlag
 CreateObject pos=5;6 dir=0 type=Titanium
 CreateObject pos=7;6 dir=0 type=Titanium
