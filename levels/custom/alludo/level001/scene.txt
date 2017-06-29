@@ -21,6 +21,7 @@ MessageDelay factor=1.0
 Audio track=2
 Background up=0.000;0.706;1.000 down=1.000;1.000;1.000
 SecondTexture rank=5
+MaxFlyingHeight max=100
 
 // Set terrain
 TerrainGenerate vision=1600.0 depth=1 hard=0.3 slope=0.0
