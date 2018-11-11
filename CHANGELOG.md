@@ -1,7 +1,12 @@
 # Alludo Changelog #
 
-Colobot user level by Simbax  
-Made for level designers  
+Basic level for use as a template or testing playground.
+Initially created by Mateusz Przybył, now maintained by TerranovaTeam.
+
+# Version 1.4.2 #
+* Moved repository to `colobot` organization (https://github.com/colobot/alludo)
+* Changed license from MIT to `CC0-1.0`
+* Improved and unified descriptions
 
 # Version 1.4.1 #
 * Add ability to build Destroyer

@@ -1,6 +1,6 @@
 \b;Alludo
 
-Basic user level made for level designers, developers and testers.
+Basic level for use as a template or testing playground.
 
 \t;Features
 
@@ -26,4 +26,4 @@ The ramp is in a relief file. Each pixel represents one height. The ramp is 3 pi
 
 \t;About
 
-The level was created by Simbax (Mateusz Przybył). License, list of changes and new releases can be found here: \c;https://github.com/MrSimbax/colobot-alludo\n;.
+Initially created by Mateusz Przybył, now maintained by TerranovaTeam. License (CC0-1.0), list of changes and new releases can be found here: \c;https://github.com/colobot/alludo\n;.

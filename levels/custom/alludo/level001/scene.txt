@@ -1,11 +1,11 @@
 // Titles EN
 Title.E text="Alludo"
-Resume.E text="Basic map for level designers. Perfect for testing."
+Resume.E text="Basic level for use as a template or testing playground."
 ScriptName.E text="Program"
 
 // Titles PL
 Title.P text="Alludo"
-Resume.P text="Prosta mapa dla level designerów. Idealna do testowania."
+Resume.P text="Prosty poziom służący jako szablon albo miejsce do testowania."
 ScriptName.P text="Program"
 
 // SatCom in all languages

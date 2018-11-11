@@ -1,6 +1,6 @@
 \b;Alludo
 
-Prosta mapa dla level designerów, developerów i testerów.
+Prosty poziom służący jako szablon albo miejsce do testowania.
 
 \t;Opis
 
@@ -26,4 +26,4 @@ Rampa znajduje się w pliku relief. Jeden piksel to jedna wysokość. Rampa ma 3
 
 \t;Informacje
 
-Poziom stworzony przez użytkownika Simbax (Mateusz Przybył). Szczegółową licencję, listę zmian i nowe wydania znajdziesz tutaj: \c;https://github.com/MrSimbax/colobot-alludo\n;.
+Pierwotnie stworzony przez Mateusza Przybył, teraz utrzymywany przez TerranovaTeam. Licencję (CC0-1.0), listę zmian i nowe wydania znajdziesz tutaj: \c;https://github.com/colobot/alludo\n;.
