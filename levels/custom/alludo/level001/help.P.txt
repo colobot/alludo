@@ -7,7 +7,7 @@ Prosty poziom służący jako szablon albo miejsce do testowania.
 o Mapa jest prawie całkowicie płaska i nie zawiera wody.
 o Lokalizacja podziemnych zasobów jest zaznaczona kolorowym podświetleniem w rogach mapy.
 o 1 kratka == 1 "colometr" kwadratowy
-o \c;Me\n; i pierwsze roboty są niezniszczalni.
+o \c;Me\n; i pierwsze roboty są niezniszczalne.
 o Wszystkie budynki i roboty są dostępne.
 o Nie ma żywych obcych mogących ci przeszkodzić.
 o Wszystkie obiekty z gry znajdują się w południowo-wschodnim rogu mapy.
