@@ -3,6 +3,10 @@
 Basic level for use as a template or testing playground.
 Initially created by Mateusz Przybył, now maintained by TerranovaTeam.
 
+# Version 1.5.0 #
+* Add `manifest.txt`
+* Fix typo in `help.P.txt` (thanks macieyn!)
+
 # Version 1.4.2 #
 * Moved repository to `colobot` organization (https://github.com/colobot/alludo)
 * Changed license from MIT to `CC0-1.0`

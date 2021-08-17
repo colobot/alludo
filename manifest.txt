@@ -1,0 +1,6 @@
+DisplayName.E text="Alludo"
+Author text="TerranovaTeam"
+Version major=1 minor=5 patch=0 // you can also use text="1.5.0", it takes priority
+Website text="https://www.moddb.com/games/colobot-gold-edition/addons/alludo"
+Summary.E text="Basic level for use as a template or testing playground."
+Summary.P text="Prosty poziom służący jako szablon albo miejsce do testowania."
